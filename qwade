@@ -1,0 +1,195 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local TextBox_2 = Instance.new("TextBox")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Frame.BorderColor3 = Color3.fromRGB(10, 10, 10)
+Frame.Position = UDim2.new(0.108864695, 0, 0.262254894, 0)
+Frame.Size = UDim2.new(0, 500, 0, 132)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Size = UDim2.new(0, 200, 0, 18)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Inf Rank Reward"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0, 0, 0.769230723, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 18)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Inf Nyan Cat"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(-5.96046448e-08, 0, 0.384615362, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 18)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Inf Huge Festive"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.59677422, 0, 0.346153855, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 33)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "More Coming Soon..."
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+TextBox_2.Parent = Frame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.Position = UDim2.new(0.697580636, 0, 0.0641025677, 0)
+TextBox_2.Size = UDim2.new(0, 99, 0, 13)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "!MidGames!"
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextSize = 14.000
+
+-- Scripts:
+
+local function VQPFTE_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+	game:GetService("ReplicatedStorage").Framework.Network.Daily_Reward:FireServer()
+end
+coroutine.wrap(VQPFTE_fake_script)()
+local function LJVS_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+	game:GetService("ReplicatedStorage").giveHatch:FireServer()
+end
+coroutine.wrap(LJVS_fake_script)()
+local function VACJDA_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+	local args = {
+		[1] = "Huge Festive Cat"
+	}
+	
+	game:GetService("ReplicatedStorage").givePet:FireServer(unpack(args))
+end
+coroutine.wrap(VACJDA_fake_script)()
